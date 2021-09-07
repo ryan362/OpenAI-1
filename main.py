@@ -1,3 +1,4 @@
+# VERY VERY BASIC PROTOTYPE, expect nothing to work properly
 import os
 import openai
 #import time
@@ -13,7 +14,7 @@ async def summarize(ctx, args):
 	print(args)
 	#Count Words - if above quota then return and send error message also if above 100 return and send error
 	#Check Content - use the OpenAI content filter and filter out content returned with a 2 that the AI is confident about. Also maybe add some of your own
-	
+
 	'''
 	response = openai.Completion.create(
 		engine="curie",
